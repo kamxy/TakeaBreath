@@ -1,0 +1,49 @@
+"Ready to Start" = "शुरू करने के लिए तैयार";
+"Focus Time" = "फोकस का समय";
+"Break Time" = "ब्रेक का समय";
+"Paused" = "रुका हुआ";
+"Completed" = "पूरा हुआ";
+"Break Timer" = "ब्रेक टाइमर";
+"Timer Settings" = "टाइमर सेटिंग्स";
+"Work Session" = "कार्य सत्र";
+"Break Duration" = "ब्रेक की अवधि";
+"Number of Rounds" = "राउंड की संख्या";
+"Cancel" = "रद्द करें";
+"Start" = "शुरू करें";
+"minutes" = "मिनट";
+"rounds" = "राउंड";
+"Timer" = "टाइमर";
+"Shows the current timer status." = "वर्तमान टाइमर स्थिति दिखाता है।";
+
+// Onboarding
+"Welcome to TakeABreak" = "TakeABreak में आपका स्वागत है";
+"Your personal companion for mindfulness, meditation, and stress management." = "माइंडफुलनेस, ध्यान और तनाव प्रबंधन के लिए आपका व्यक्तिगत साथी।";
+"Guided Meditations" = "गाइडेड मेडिटेशन";
+"Choose from a variety of meditation sessions designed to help you relax, focus, and find inner peace." = "आपको आराम करने, ध्यान केंद्रित करने और आंतरिक शांति पाने में मदद करने के लिए डिज़ाइन किए गए विभिन्न ध्यान सत्रों में से चुनें।";
+"Track Your Mood" = "अपना मूड ट्रैक करें";
+"Log your daily emotions and activities to gain insights into your emotional well-being." = "अपनी भावनात्मक भलाई के बारे में जानकारी प्राप्त करने के लिए अपनी दैनिक भावनाओं और गतिविधियों को लॉग करें।";
+"Smart Break Timer" = "स्मार्ट ब्रेक टाइमर";
+"Stay productive with our Pomodoro-style timer and get reminders to take breaks when needed." = "हमारे पोमोडोरो-स्टाइल टाइमर के साथ उत्पादक रहें और जरूरत पड़ने पर ब्रेक लेने के रिमाइंडर प्राप्त करें।";
+"AI-Powered Insights" = "AI-संचालित अंतर्दृष्टि";
+"Receive personalized recommendations based on your mood patterns and meditation habits." = "अपने मूड पैटर्न और ध्यान की आदतों के आधार पर व्यक्तिगत सिफारिशें प्राप्त करें।";
+"Get Started" = "शुरू करें";
+"Next" = "अगला";
+"Skip" = "छोड़ें";
+"What should we call you?" = "हम आपको क्या कहें?";
+"We'll use this to personalize your experience." = "हम इसका उपयोग आपके अनुभव को व्यक्तिगत बनाने के लिए करेंगे।";
+"Your name" = "आपका नाम";
+"Continue" = "जारी रखें";
+
+// Settings
+"Appearance" = "दिखावट";
+"Dark Mode" = "डार्क मोड";
+"Language" = "भाषा";
+"System" = "सिस्टम";
+"English" = "अंग्रेज़ी";
+"Spanish" = "स्पेनिश";
+"Arabic" = "अरबी";
+"Hindi" = "हिंदी";
+"Portuguese" = "पुर्तगाली";
+"Russian" = "रूसी";
+"Japanese" = "जापानी";
+"Turkish" = "तुर्की"; 

@@ -1,0 +1,49 @@
+"Ready to Start" = "Listo para Empezar";
+"Focus Time" = "Tiempo de Concentración";
+"Break Time" = "Tiempo de Descanso";
+"Paused" = "Pausado";
+"Completed" = "Completado";
+"Break Timer" = "Temporizador de Descanso";
+"Timer Settings" = "Ajustes del Temporizador";
+"Work Session" = "Sesión de Trabajo";
+"Break Duration" = "Duración del Descanso";
+"Number of Rounds" = "Número de Rondas";
+"Cancel" = "Cancelar";
+"Start" = "Iniciar";
+"minutes" = "minutos";
+"rounds" = "rondas";
+"Timer" = "Temporizador";
+"Shows the current timer status." = "Muestra el estado actual del temporizador.";
+
+// Onboarding
+"Welcome to TakeABreak" = "Bienvenido a TakeABreak";
+"Your personal companion for mindfulness, meditation, and stress management." = "Tu compañero personal para la atención plena, meditación y manejo del estrés.";
+"Guided Meditations" = "Meditaciones Guiadas";
+"Choose from a variety of meditation sessions designed to help you relax, focus, and find inner peace." = "Elige entre una variedad de sesiones de meditación diseñadas para ayudarte a relajarte, concentrarte y encontrar paz interior.";
+"Track Your Mood" = "Registra tu Estado de Ánimo";
+"Log your daily emotions and activities to gain insights into your emotional well-being." = "Registra tus emociones y actividades diarias para obtener información sobre tu bienestar emocional.";
+"Smart Break Timer" = "Temporizador Inteligente de Descansos";
+"Stay productive with our Pomodoro-style timer and get reminders to take breaks when needed." = "Mantente productivo con nuestro temporizador estilo Pomodoro y recibe recordatorios para tomar descansos cuando sea necesario.";
+"AI-Powered Insights" = "Información Impulsada por IA";
+"Receive personalized recommendations based on your mood patterns and meditation habits." = "Recibe recomendaciones personalizadas basadas en tus patrones de estado de ánimo y hábitos de meditación.";
+"Get Started" = "Comenzar";
+"Next" = "Siguiente";
+"Skip" = "Saltar";
+"What should we call you?" = "¿Cómo deberíamos llamarte?";
+"We'll use this to personalize your experience." = "Usaremos esto para personalizar tu experiencia.";
+"Your name" = "Tu nombre";
+"Continue" = "Continuar";
+
+// Settings
+"Appearance" = "Apariencia";
+"Dark Mode" = "Modo Oscuro";
+"Language" = "Idioma";
+"System" = "Sistema";
+"English" = "Inglés";
+"Spanish" = "Español";
+"Arabic" = "Árabe";
+"Hindi" = "Hindi";
+"Portuguese" = "Portugués";
+"Russian" = "Ruso";
+"Japanese" = "Japonés";
+"Turkish" = "Turco"; 

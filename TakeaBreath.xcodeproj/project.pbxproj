@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BBE922382D1F02FD006E9321 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE922372D1F02FD006E9321 /* WidgetKit.framework */; };
+		BBE9223A2D1F02FD006E9321 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE922392D1F02FD006E9321 /* SwiftUI.framework */; };
+		BBE9224B2D1F02FE006E9321 /* TimerWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BBE922352D1F02FD006E9321 /* TimerWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BBE921742D1DA151006E9321 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +27,61 @@
 			remoteGlobalIDString = BBE921622D1DA14F006E9321;
 			remoteInfo = TakeaBreath;
 		};
+		BBE922492D1F02FE006E9321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBE9215B2D1DA14F006E9321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE922342D1F02FD006E9321;
+			remoteInfo = TimerWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBE922502D1F02FE006E9321 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BBE9224B2D1F02FE006E9321 /* TimerWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BBE921632D1DA14F006E9321 /* TakeaBreath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeaBreath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE921732D1DA151006E9321 /* TakeaBreathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeaBreathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE9217D2D1DA151006E9321 /* TakeaBreathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeaBreathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE922352D1F02FD006E9321 /* TimerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE922372D1F02FD006E9321 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		BBE922392D1F02FD006E9321 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BBE9224F2D1F02FE006E9321 /* Exceptions for "TimerWidget" folder in "TimerWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BBE922342D1F02FD006E9321 /* TimerWidgetExtension */;
+		};
+		BBE9225E2D1F0AAE006E9321 /* Exceptions for "TakeaBreath" folder in "TakeaBreath" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BBE921622D1DA14F006E9321 /* TakeaBreath */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BBE921652D1DA14F006E9321 /* TakeaBreath */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BBE9225E2D1F0AAE006E9321 /* Exceptions for "TakeaBreath" folder in "TakeaBreath" target */,
+			);
 			path = TakeaBreath;
 			sourceTree = "<group>";
 		};
@@ -43,6 +93,14 @@
 		BBE921802D1DA151006E9321 /* TakeaBreathUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TakeaBreathUITests;
+			sourceTree = "<group>";
+		};
+		BBE9223B2D1F02FD006E9321 /* TimerWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BBE9224F2D1F02FE006E9321 /* Exceptions for "TimerWidget" folder in "TimerWidgetExtension" target */,
+			);
+			path = TimerWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +127,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBE922322D1F02FD006E9321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE9223A2D1F02FD006E9321 /* SwiftUI.framework in Frameworks */,
+				BBE922382D1F02FD006E9321 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +145,8 @@
 				BBE921652D1DA14F006E9321 /* TakeaBreath */,
 				BBE921762D1DA151006E9321 /* TakeaBreathTests */,
 				BBE921802D1DA151006E9321 /* TakeaBreathUITests */,
+				BBE9223B2D1F02FD006E9321 /* TimerWidget */,
+				BBE922362D1F02FD006E9321 /* Frameworks */,
 				BBE921642D1DA14F006E9321 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +157,18 @@
 				BBE921632D1DA14F006E9321 /* TakeaBreath.app */,
 				BBE921732D1DA151006E9321 /* TakeaBreathTests.xctest */,
 				BBE9217D2D1DA151006E9321 /* TakeaBreathUITests.xctest */,
+				BBE922352D1F02FD006E9321 /* TimerWidgetExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BBE922362D1F02FD006E9321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBE922372D1F02FD006E9321 /* WidgetKit.framework */,
+				BBE922392D1F02FD006E9321 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,10 +181,12 @@
 				BBE9215F2D1DA14F006E9321 /* Sources */,
 				BBE921602D1DA14F006E9321 /* Frameworks */,
 				BBE921612D1DA14F006E9321 /* Resources */,
+				BBE922502D1F02FE006E9321 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BBE9224A2D1F02FE006E9321 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				BBE921652D1DA14F006E9321 /* TakeaBreath */,
@@ -163,6 +244,28 @@
 			productReference = BBE9217D2D1DA151006E9321 /* TakeaBreathUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BBE922342D1F02FD006E9321 /* TimerWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE9224C2D1F02FE006E9321 /* Build configuration list for PBXNativeTarget "TimerWidgetExtension" */;
+			buildPhases = (
+				BBE922312D1F02FD006E9321 /* Sources */,
+				BBE922322D1F02FD006E9321 /* Frameworks */,
+				BBE922332D1F02FD006E9321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BBE9223B2D1F02FD006E9321 /* TimerWidget */,
+			);
+			name = TimerWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = TimerWidgetExtension;
+			productReference = BBE922352D1F02FD006E9321 /* TimerWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +287,9 @@
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = BBE921622D1DA14F006E9321;
 					};
+					BBE922342D1F02FD006E9321 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = BBE9215E2D1DA14F006E9321 /* Build configuration list for PBXProject "TakeaBreath" */;
@@ -192,6 +298,13 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				ar,
+				hi,
+				pt,
+				ru,
+				ja,
+				tr,
 			);
 			mainGroup = BBE9215A2D1DA14F006E9321;
 			minimizedProjectReferenceProxies = 1;
@@ -203,6 +316,7 @@
 				BBE921622D1DA14F006E9321 /* TakeaBreath */,
 				BBE921722D1DA151006E9321 /* TakeaBreathTests */,
 				BBE9217C2D1DA151006E9321 /* TakeaBreathUITests */,
+				BBE922342D1F02FD006E9321 /* TimerWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +337,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BBE9217B2D1DA151006E9321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE922332D1F02FD006E9321 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +374,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBE922312D1F02FD006E9321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +393,11 @@
 			isa = PBXTargetDependency;
 			target = BBE921622D1DA14F006E9321 /* TakeaBreath */;
 			targetProxy = BBE9217E2D1DA151006E9321 /* PBXContainerItemProxy */;
+		};
+		BBE9224A2D1F02FE006E9321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE922342D1F02FD006E9321 /* TimerWidgetExtension */;
+			targetProxy = BBE922492D1F02FE006E9321 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -393,22 +526,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TakeaBreath/TakeaBreath.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"TakeaBreath/Preview Content\"";
 				DEVELOPMENT_TEAM = AY8MN643FP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TakeaBreath/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Take Breath";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kamay.TakeaBreath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -422,22 +559,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TakeaBreath/TakeaBreath.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"TakeaBreath/Preview Content\"";
 				DEVELOPMENT_TEAM = AY8MN643FP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TakeaBreath/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Take Breath";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kamay.TakeaBreath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -518,6 +659,60 @@
 			};
 			name = Release;
 		};
+		BBE9224D2D1F02FE006E9321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AY8MN643FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimerWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TimerWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamay.TakeaBreath.TimerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBE9224E2D1F02FE006E9321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AY8MN643FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimerWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TimerWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamay.TakeaBreath.TimerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +748,15 @@
 			buildConfigurations = (
 				BBE9218E2D1DA151006E9321 /* Debug */,
 				BBE9218F2D1DA151006E9321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBE9224C2D1F02FE006E9321 /* Build configuration list for PBXNativeTarget "TimerWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE9224D2D1F02FE006E9321 /* Debug */,
+				BBE9224E2D1F02FE006E9321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
